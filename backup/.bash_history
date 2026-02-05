@@ -1,10 +1,10 @@
 # backup/.bash_history (recortado)
-export C2_HOST="c2-malaje.ctf"
-export C2_USER="ops"
-export C2_PORT="2222"
+export C2_HOST="80.225.190.114"
+export C2_USER="ubuntu"
+export C2_PORT="22"
 
 # llave cifrada (pedirá passphrase)
-ssh -i keys/id_ops.enc -p $C2_PORT $C2_USER@$C2_HOST
+ssh -i keys/ssh.key -p $C2_PORT $C2_USER@$C2_HOST
 
 # notas
 # manual: /opt/notes/deploy_notes_v3.pdf
